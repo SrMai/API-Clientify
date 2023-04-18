@@ -38,6 +38,35 @@ class Usuario{
 		echo $output;
 	 }
 	 
+	 public function crearContacto($token, $nombre, $apellido, $email, $telefono, $accion)
+	 {
+		/**Modo de uso:
+		 * Token = token API
+		 * nombre = nombre del contacto
+		 * apellido = apellido del contacto
+		 * email = email del contacto
+		 * telefono = telefono del contacto
+		 * accion = ruta del script
+		 */
+		$variables = $token . " " . $nombre . " " . $apellido . " " . $email . " " . $telefono;
+		$output = shell_exec("$accion $variables");
+		echo $output;
+	 }
+	 
+	 public function buscarContacto($variables, $accion)
+	 {
+		/**Modo de uso:
+		 * Token = token API
+		 * nombre = nombre del contacto
+		 * apellido = apellido del contacto
+		 * email = email del contacto
+		 * telefono = telefono del contacto
+		 * accion = ruta del script
+		 */
+		$output = shell_exec("$accion $variables");
+		echo $output;
+	 }
+
 	 public static function obtenerUsuarios()
 	 {
 		$ch = curl_init();

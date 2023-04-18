@@ -24,6 +24,11 @@
 			Usuario::guardarNota($token, $_GET['nota_id'], $_GET['titulo'], $_GET['descripcion'], $CrearNota);
 		}elseif(isset($_GET['eliminar_contacto_id'])){
 			Usuario::eliminarContacto($token, $_GET['eliminar_contacto_id'], $EliminarContacto);
+		}elseif(isset($_GET['crear_contacto_nombre']) && isset($_GET['crear_contacto_apellido']) && isset($_GET['crear_contacto_email']) && isset($_GET['crear_contacto_telefono'])){
+			Usuario::crearContacto($token, $_GET['crear_contacto_nombre'], $_GET['crear_contacto_apellido'], $_GET['crear_contacto_email'], $_GET['crear_contacto_telefono'], $CrearContacto);
+		}elseif(isset($_GET['buscar_contacto_nombre']) || isset($_GET['buscar_contacto_apellido']) || isset($_GET['buscar_contacto_email']) || isset($_GET['buscar_contacto_telefono'])){
+			$variables = $token . " " . $_GET['buscar_contacto_nombre'] . " " . $_GET['buscar_contacto_apellido'] . " " . $_GET['buscar_contacto_email'] . " " . $_GET['buscar_contacto_telefono'];
+			Usuario::buscarContacto($variables, $BuscarContacto);
 		}else{
 			Usuario::obtenerUsuarios();
 			$resultado["mensaje"] = "Retornar todos los contactos";

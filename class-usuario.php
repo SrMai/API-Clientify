@@ -56,11 +56,11 @@ class Usuario{
 	 public function buscarContacto($variables, $accion)
 	 {
 		/**Modo de uso:
+		 * $Variables == 
 		 * Token = token API
-		 * nombre = nombre del contacto
-		 * apellido = apellido del contacto
 		 * email = email del contacto
 		 * telefono = telefono del contacto
+		 * otros = Otros datos del contacto para mejorar el filtrado
 		 * accion = ruta del script
 		 */
 		$output = shell_exec("$accion $variables");
@@ -85,24 +85,10 @@ class Usuario{
 		curl_close($ch);
 	 }
 
-	 public static function obtenerUsuario($indice)
+	 public static function obtenerUsuario($accion, $variables)
 	 {
-		$ch = curl_init();
-		var_dump($indice);
-		curl_setopt($ch, CURLOPT_URL, 'https://api.clientify.net/v1/contacts/'.$indice.'/');
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
-		$headers = array();
-		$headers[] = 'Authorization: Token b02655bd6a3d03900958f1d8b53231098a880a81';
-		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-
-		$result = curl_exec($ch);
-		if (curl_errno($ch)) {
-		    echo 'Error:' . curl_error($ch);
-		}
-		echo $result;
-		curl_close($ch);
+		$output = shell_exec("$accion  $variables");
+		echo $output;
 	 }
 }
-
 ?>

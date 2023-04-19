@@ -1,17 +1,11 @@
-import http.client
+import http
 import json
-import sys
-
-token = sys.argv[1]
-nombre = sys.argv[2]
-apellido = sys.argv[3]
-email = sys.argv[4]
-telefono = sys.argv[5]
-#Diccionario de telefonos
-phones_list = {str(telefono)}
-
-
-
+import requests
+nombre = "Carlos"
+apellido = "Ayala"
+email = "asddasd@gmail.com"
+telefono = "123123123"
+token = "b02655bd6a3d03900958f1d8b53231098a880a81"
 conn = http.client.HTTPSConnection("api.clientify.net")
 payload = json.dumps({
   "first_name": "{}".format(nombre),
@@ -20,7 +14,8 @@ payload = json.dumps({
   "phone": str(telefono),
   "status": "cold-lead",
   "contact_source": "API",
-  "last_contact": None
+  "last_contact": None,
+  "facebook_id": "1234"
 })
 headers = {
   'Authorization': "Token {}".format(token),
@@ -29,4 +24,7 @@ headers = {
 conn.request("POST", "/v1/contacts/", payload, headers)
 res = conn.getresponse()
 data = res.read()
-print(data.decode("utf-8"))
+if data.decode("utf-8") == " ":
+    print("[ERROR] No se pudo crear el contacto. " + data.decode("utf-8"))
+else: 
+    print("Contacto creado correctamente. " + data.decode("utf-8"))

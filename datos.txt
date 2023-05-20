@@ -1,0 +1,380 @@
+Array
+(
+    [hook] => Array
+        (
+            [event] => contact.deleted
+            [target] => http://carlosayala.cloud/API-Clientify/recibe.php
+            [id] => 3124
+        )
+
+    [data] => Array
+        (
+            [last_name] => Ayala
+            [addresses] => Array
+                (
+                )
+
+            [related_tasks] => Array
+                (
+                )
+
+            [phones] => Array
+                (
+                )
+
+            [twitter_picture_url] => 
+            [klout_url] => 
+            [gdpr_accept] => 
+            [owner] => carlosadrian.cg2@gmail.com
+            [id] => 43162064
+            [custom_fields] => Array
+                (
+                )
+
+            [linkedin_id] => 
+            [facebook_picture_url] => 
+            [first_name] => Carlos
+            [last_contact] => 
+            [google_id] => 
+            [title] => 
+            [picture_url] => 
+            [lead_scoring] => 0
+            [taxpayer_identification_number] => 
+            [facebook_id] => m_c7kzglMn7Owk5Xd-FgPtGo28S3x005tgWo8CKCLy8-EVFuyDD0BCfX5t9jnDD8FLfozo81W0r_vUi_8gqj4TrQ
+            [foursquare_url] => 
+            [linkedin_picture_url] => 
+            [facebook_url] => 
+            [status] => cold-lead
+            [medium] => 
+            [description] => 
+            [tags] => Array
+                (
+                )
+
+            [twitter_url] => 
+            [company] => 
+            [skype_username] => 
+            [contact_source] => API-FACEBOOK
+            [birthday] => 
+            [remarks] => 
+            [emails] => Array
+                (
+                )
+
+            [pinterest_url] => 
+            [created] => 2023-04-19T00:16:37.656133Z
+            [contact_type] => 
+            [linkedin_url] => 
+            [twitter_id] => 
+            [websites] => Array
+                (
+                )
+
+            [summary] => 
+            [deals] => Array
+                (
+                )
+
+            [googleplus_url] => 
+        )
+
+)
+Array
+(
+    [hook] => Array
+        (
+            [event] => contact.deleted
+            [target] => http://carlosayala.cloud/API-Clientify/recibe.php
+            [id] => 3124
+        )
+
+    [data] => Array
+        (
+            [last_name] => Ayala
+            [addresses] => Array
+                (
+                )
+
+            [related_tasks] => Array
+                (
+                )
+
+            [phones] => Array
+                (
+                )
+
+            [twitter_picture_url] => 
+            [klout_url] => 
+            [gdpr_accept] => 
+            [owner] => carlosadrian.cg2@gmail.com
+            [id] => 43162076
+            [custom_fields] => Array
+                (
+                )
+
+            [linkedin_id] => 
+            [facebook_picture_url] => 
+            [first_name] => Carlos
+            [last_contact] => 
+            [google_id] => 
+            [title] => 
+            [picture_url] => 
+            [lead_scoring] => 0
+            [taxpayer_identification_number] => 
+            [facebook_id] => m_BbFCBMBHW00A0ObqOMu4PI28S3x005tgWo8CKCLy8-HchU7ZPwHLK-cUWmPCPkzzag0xvusrfrAyNsMYUdeiSA
+            [foursquare_url] => 
+            [linkedin_picture_url] => 
+            [facebook_url] => 
+            [status] => cold-lead
+            [medium] => 
+            [description] => 
+            [tags] => Array
+                (
+                )
+
+            [twitter_url] => 
+            [company] => 
+            [skype_username] => 
+            [contact_source] => Facebook
+            [birthday] => 
+            [remarks] => 
+            [emails] => Array
+                (
+                )
+
+            [pinterest_url] => 
+            [created] => 2023-04-19T00:17:14.899344Z
+            [contact_type] => 
+            [linkedin_url] => 
+            [twitter_id] => 
+            [websites] => Array
+                (
+                )
+
+            [summary] => 
+            [deals] => Array
+                (
+                )
+
+            [googleplus_url] => 
+        )
+
+)
+Array
+(
+    [hook] => Array
+        (
+            [event] => contact.saved
+            [target] => http://carlosayala.cloud/API-Clientify/recibe.php
+            [id] => 3123
+        )
+
+    [data] => Array
+        (
+            [last_name] => 
+            [addresses] => Array
+                (
+                )
+
+            [related_tasks] => Array
+                (
+                )
+
+            [phones] => Array
+                (
+                    [0] => Array
+                        (
+                            [phone] => +50660714570
+                            [type] => 1
+                        )
+
+                )
+
+            [twitter_picture_url] => 
+            [klout_url] => 
+            [gdpr_accept] => 
+            [owner] => mexico@raindance.ac.uk
+            [id] => 43162504
+            [custom_fields] => Array
+                (
+                    [0] => Array
+                        (
+                            [field] => Oferta-Academica
+                            [value] => Diplomados
+                        )
+
+                    [1] => Array
+                        (
+                            [field] => Plantel de preferencia
+                            [value] => CEC CDMX
+                        )
+
+                    [2] => Array
+                        (
+                            [field] => Oferta académica
+                            [value] => Lic. Actuación
+                        )
+
+                )
+
+            [linkedin_id] => 
+            [facebook_picture_url] => 
+            [first_name] => Luis Gerardo Cerdas Muñoz
+            [last_contact] => 
+            [google_id] => 
+            [title] => 
+            [picture_url] => 
+            [lead_scoring] => 0
+            [taxpayer_identification_number] => 
+            [facebook_id] => 
+            [foursquare_url] => 
+            [linkedin_picture_url] => 
+            [facebook_url] => 
+            [status] => cold-lead
+            [medium] => 
+            [description] => 
+            [tags] => Array
+                (
+                    [0] => chatbot
+                )
+
+            [twitter_url] => 
+            [company] => 
+            [skype_username] => 
+            [contact_source] => 
+            [birthday] => 
+            [remarks] => 
+            [emails] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => 4
+                            [email] => gerardomu98@gmail.com
+                        )
+
+                )
+
+            [pinterest_url] => 
+            [created] => 2023-04-19T00:46:31.777178Z
+            [contact_type] => 
+            [linkedin_url] => 
+            [twitter_id] => 
+            [websites] => Array
+                (
+                )
+
+            [summary] => 
+            [deals] => Array
+                (
+                )
+
+            [googleplus_url] => 
+        )
+
+)
+Array
+(
+    [hook] => Array
+        (
+            [event] => contact.saved
+            [target] => http://carlosayala.cloud/API-Clientify/recibe.php
+            [id] => 3123
+        )
+
+    [data] => Array
+        (
+            [last_name] => 
+            [addresses] => Array
+                (
+                )
+
+            [related_tasks] => Array
+                (
+                )
+
+            [phones] => Array
+                (
+                    [0] => Array
+                        (
+                            [phone] => +523323562962
+                            [type] => 1
+                        )
+
+                )
+
+            [twitter_picture_url] => 
+            [klout_url] => 
+            [gdpr_accept] => 
+            [owner] => admisiones@cecinematograficos.com.mx
+            [id] => 43162942
+            [custom_fields] => Array
+                (
+                    [0] => Array
+                        (
+                            [field] => Plantel de preferencia
+                            [value] => CEC Guadalajara
+                        )
+
+                    [1] => Array
+                        (
+                            [field] => Oferta académica
+                            [value] => Lic. Cinematografía
+                        )
+
+                )
+
+            [linkedin_id] => 
+            [facebook_picture_url] => 
+            [first_name] => Tadeo Alejandro Luis Pacheco
+            [last_contact] => 
+            [google_id] => 
+            [title] => 
+            [picture_url] => 
+            [lead_scoring] => 0
+            [taxpayer_identification_number] => 
+            [facebook_id] => 
+            [foursquare_url] => 
+            [linkedin_picture_url] => 
+            [facebook_url] => 
+            [status] => cold-lead
+            [medium] => search
+            [description] => 
+            [tags] => Array
+                (
+                    [0] => chatbot
+                )
+
+            [twitter_url] => 
+            [company] => 
+            [skype_username] => 
+            [contact_source] => 
+            [birthday] => 
+            [remarks] => 
+            [emails] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => 4
+                            [email] => lptaf451@gmail.com
+                        )
+
+                )
+
+            [pinterest_url] => 
+            [created] => 2023-04-19T01:17:02.305702Z
+            [contact_type] => 
+            [linkedin_url] => 
+            [twitter_id] => 
+            [websites] => Array
+                (
+                )
+
+            [summary] => 
+            [deals] => Array
+                (
+                )
+
+            [googleplus_url] => 
+        )
+
+)
